@@ -4,7 +4,10 @@
 # Script Name:                  My First Bash Script
 # Author:                       Raphael Chookagian
 # Date of latest revision:      04/26/2023
-# Purpose:                      add purpose here/decription
+# Purpose:                      
+# Write a function that prints the login history of users on this computer, followed by the text “This is the login history”.
+# In your script, call that function three times.
+# Use the same template introduced in Challenge02.
 
 # Declaration of variables
 
@@ -12,14 +15,28 @@ greeting="Hello world!"
 
 Iwork="I am working perfectly!"
 
+log () {
+  sudo last -a
+  echo "This is the login history"
+}
+
 # Declaration of functions
 
-login_history () {
-  # print login history of users on this computer
-  sudo last -a
+# login_history () {
+#   # print login history of users on this computer
+#   sudo last -a
 
-  # add text at end
-  echo "This is the login history"
+#   # add text at end
+#   echo "This is the login history"
+# }
+login_history () {
+  log
+  
+  
+  log
+  
+  
+  log
 }
 
 
@@ -31,13 +48,14 @@ login_history () {
 
 # Main
 
-echo $greeting
+# echo $greeting
 
-echo $Iwork
+# echo $Iwork
 
 
-login_history
-login_history
+# login_history
+# login_history
+# login_history
 login_history
 
 # End
