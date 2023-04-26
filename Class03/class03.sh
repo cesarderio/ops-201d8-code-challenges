@@ -1,15 +1,10 @@
 
-
-
-
-
-
 #!/bin/bash
 
 # Script Name:                  My First Bash Script
 # Author:                       Raphael Chookagian
-# Date of latest revision:      04/25/2023
-# Purpose:                      Create a script that prins a string to the console.
+# Date of latest revision:      04/26/2023
+# Purpose:                      add purpose here/decription
 
 # Declaration of variables
 
@@ -19,12 +14,17 @@ Iwork="I am working perfectly!"
 
 # Declaration of functions
 
+print_something () {
+  echo Hello I am a function
+}
+
+
 # Create
 
 # Main
 
-echo $greeting"
+echo $greeting
 
-echo $Iwork"
+echo $Iwork
 
 # End
