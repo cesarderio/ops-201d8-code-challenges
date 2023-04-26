@@ -19,6 +19,10 @@ log () {
   sudo last -a
   echo "This is the login history"
 }
+log_cesar () {
+  sudo last -a | grep cesar
+  echo "This is the login history"
+}
 
 # Declaration of functions
 
@@ -32,7 +36,7 @@ log () {
 login_history () {
   log
   
-  
+
   log
   
   
@@ -57,5 +61,7 @@ login_history () {
 # login_history
 # login_history
 login_history
+
+log_cesar
 
 # End
