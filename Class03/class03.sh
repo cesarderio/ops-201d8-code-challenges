@@ -14,9 +14,17 @@ Iwork="I am working perfectly!"
 
 # Declaration of functions
 
-print_something () {
-  echo Hello I am a function
+login_history () {
+  # print login history of users on this computer
+  sudo last -a
+
+  # add text at end
+  echo "This is the login history"
 }
+
+
+
+
 
 
 # Create
@@ -26,5 +34,10 @@ print_something () {
 echo $greeting
 
 echo $Iwork
+
+
+login_history
+login_history
+login_history
 
 # End
