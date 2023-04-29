@@ -16,33 +16,26 @@
 
 
 # Main
-killProcs(){
 
-i=0
+i=1
 
-while [ "$i" -lt 3 ]
+while [ $i -le 3 ]
   do
     ps aux
     echo "Choose target to eliminate"
     echo "Enter PID"
     read -r userInput
-    kill ["$userInput"] | echo "Would you like to kill again?"
-    
-    while "$userInput"="yes"
-      do
-        break
-      done
-    # kill "$( pgrep "$userInput" | grep -v grep | awk '{print $2}')"
-    i="$(( i++ ))"
-    # sleep 15
-    # while [ "$i" -gt 3 ]
-    #   do
-    #     echo "time for a break"
-    #     break
-    #   done
-    
+    # kill "$userInput"
+    kill $( pgrep "$userInput" | grep -v grep | awk "{print $2}")
+    # ((i=i+1))
+    i=$(( $i + 1 ))
   done
+   
+echo "Would you like to kill again? Yes/No"
+read -r userInput
+if [ $userInput="yes" ]
+  then
+    echo "time for a break"
+fi
 
-}
-killProcs
 # End
