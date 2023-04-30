@@ -13,8 +13,9 @@ count=0
 # Declaration of functions
 
 doIt(){
-  read $userInput
-  if [  $userInput  ]
+  # read $userInput
+  # if [  $userInput = $PID ]
+  if [  $( pgrep "$userInput" | grep -v grep | awk "{print $2}") = $PID ]
     then
       kill $( pgrep "$userInput" | grep -v grep | awk "{print $2}")
   else
