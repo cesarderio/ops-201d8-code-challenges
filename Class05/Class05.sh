@@ -1,6 +1,4 @@
-
 #!/bin/bash
-
 # Script Name:                  Ops Challenge - Loops
 # Author:                       Raphael Chookagian
 # Date of latest revision:      04/28/2023
@@ -11,10 +9,15 @@
 count=0
 
 # Declaration of functions
+runIt(){
+  count=0
+while (( $count < 3 ))
+  do
+    killProcs
+  done
+}
 
 doIt(){
-  # read $userInput
-  # if [  $userInput = $PID ]
   if [  $( pgrep "$userInput" | grep -v grep | awk "{print $2}") = $PID ]
     then
       kill $( pgrep "$userInput" | grep -v grep | awk "{print $2}")
@@ -34,14 +37,6 @@ killProcs(){
   count=$(( $count + 1 ))
 }
 
-runIt(){
-  count=0
-while (( $count < 3 ))
-  do
-    killProcs
-  done
-}
-
 killAgainQ(){
   echo "Would you like to kill again? Yes/No"
 read -r userInput
@@ -59,7 +54,6 @@ fi
 }
 
 # Create
-
 # Main
 
 runIt
