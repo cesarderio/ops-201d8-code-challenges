@@ -7,7 +7,7 @@
 
 # Declaration of variables
 count=0
-
+# PID=[ ps -p $userInput > /dev/null  ]
 # Declaration of functions
 runIt(){
   count=0
@@ -19,6 +19,7 @@ while (( $count < 3 ))
 
 doIt(){
   if [  $( pgrep "$userInput" | grep -v grep | awk "{print $2}") = $PID ]
+  # if [ ps -p $userInput > /dev/null  ]
     then
       kill $( pgrep "$userInput" | grep -v grep | awk "{print $2}")
   else
