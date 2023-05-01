@@ -27,15 +27,8 @@ Directv(){
 }
 # Directv
 
-removeDirect(){
-  # rmdir CanYouHearMeNow
-  rm -rf CanYouHearMeNow
-}
 
-if [ -d "$DIR"  ]
-  then
-    removeDirect
-fi
+
 
 # for dir in "${dirArr[@]}"
 # do
