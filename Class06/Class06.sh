@@ -7,35 +7,39 @@
 # Your script must use at least one array, one loop, and one conditional.
 
 # Declaration of variables
-
-
-
-
 dirArr=( dir1 dir2 dir3 dir4 )
 
 DIR="./CanYouHearMeNow"
 
 # Declaration of functions
-
-
 ReadMe(){
-touch file.txt
+# touch file.txt
+for dir in "${dirArr[@]}"
+do
+  cd $dir 
+  touch file.txt
+  cat <<EOF > file.txt
+  Is this on?
+  How about now?
+  Can you hear me now?
+EOF
+  cd ..
+done
 }
 
 Directv(){
   mkdir dir{1..4}
 }
-# Directv
 
+removeDirect(){
+  rm -rf CanYouHearMeNow
+}
 
+if [ -d "$DIR"  ]
+  then
+    removeDirect
+fi
 
-
-# for dir in "${dirArr[@]}"
-# do
-#   cd $dir 
-#   touch file.txt
-#   cd ..
-# done
 
 # Create
 
@@ -47,13 +51,16 @@ if [ ! -d "$DIR" ]
   then
     mkdir -p $DIR && cd $DIR
     Directv
-    ReadMe
-    # touch file.txt
-    cat <<EOF > file.txt
-    Is this on?
-    How about now?
-    Can you hear me now?
-EOF
+    if [ ! -f "file.txt" ]
+      then
+        ReadMe
+      # touch file.txt
+      #     cat <<EOF > file.txt
+      #     Is this on?
+      #     How about now?
+      #     Can you hear me now?
+      # EOF
+      fi
 fi
 
 # End
