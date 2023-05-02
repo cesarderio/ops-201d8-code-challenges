@@ -7,19 +7,10 @@
 # Your script must use at least one array, one loop, and one conditional.
 
 # Declaration of variables
-
-
-dirArr=( dir1 dir2 dir3 dir4 )
-
 DIR="./CanYouHearMeNow"
 
-
-
-
-
-
+# Declaration of functions
 removeDirect(){
-  # rmdir CanYouHearMeNow
   rm -rf CanYouHearMeNow
 }
 
