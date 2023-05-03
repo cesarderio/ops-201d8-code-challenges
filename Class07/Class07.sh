@@ -12,7 +12,7 @@
 # Declaration of functions
 Name() {
 echo "Name:"
-# sudo lshw -class Name ## <--------------------???????
+sudo hostname
 }
 
 CPU() {
@@ -22,7 +22,7 @@ sudo lshw -class cpu | grep -wv capabilities | grep -wv version | grep -wv *-cpu
 
 RAM() {
 echo "RAM:"
-sudo lshw -class memory
+sudo lshw -class Memory | grep *-memory -A 3
 }
 
 Display() {
@@ -34,13 +34,17 @@ Network() {
 echo "Network Adapter:"
 sudo lshw -class network | grep -wv network
 }
-# Create
 
-# Main
+# Create
+Create() {
 Name
 CPU
 RAM
 Display
 Network
+}
+
+# Main
+Create
 
 # End
