@@ -22,7 +22,8 @@ sudo lshw -class cpu | grep -wv capabilities | grep -wv version | grep -wv *-cpu
 
 RAM() {
 echo "RAM:"
-sudo lshw -class Memory | grep *-memory -A 3
+sudo lshw -class Memory | grep memory -A 3
+# sudo lshw -class Memory | grep -wv memory
 }
 
 Display() {
