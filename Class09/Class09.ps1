@@ -4,7 +4,6 @@
 @REM # Purpose:                      Write a set of Powershell commands that fetch useful System event logs. Include language appropriate syntax and file extensions.
 
 
-
 # Declare Functions
 # Create
 
