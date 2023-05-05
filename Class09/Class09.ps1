@@ -3,7 +3,6 @@
 # Date of latest revision:      05/4/2023
 # Purpose:                      Write a set of Powershell commands that fetch useful System event logs. Include language appropriate syntax and file extensions.
 
-
 # Declare Functions
 # Create
 
@@ -21,7 +20,7 @@ function AirOr {
 # Print to the screen all events with ID of 16 from the System event log.
 
 function Print16 { 
-  Get-EventLog -LogName System | Where-Object {$_.EventID -eq 16} | 
+  Get-EventLog -LogName System | Where-Object {$_.EventID -eq 16}
 }
 
 # Print to the screen the most recent 20 entries from the System event log.’
@@ -44,5 +43,3 @@ AirOr
 Print16
 Print20
 Print500
-
-
