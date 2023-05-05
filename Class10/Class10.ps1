@@ -1,7 +1,7 @@
-@REM # Script Name:                  M
-@REM # Author:                       Raphael Chookagian
-@REM # Date of latest revision:      05/5/2023
-@REM # Purpose:                      Create a Powershell script that performs these operations on separate lines. See README for more information.
+# Script Name:                  M
+# Author:                       Raphael Chookagian
+# Date of latest revision:      05/5/2023
+# Purpose:                      Create a Powershell script that performs these operations on separate lines. See README for more information.
 
 
 # Declare Functions
