@@ -11,6 +11,7 @@ function Last24 {
   Get-EventLog -List | %{Get-EventLog -LogName $_.Log -After (Get-Date).Date.AddDays(-1) -ErrorAction Ignore} | Sort-Object TimeGenerated | Format-Table -AutoSize -Wrap | Out-File -FilePath .\Desktop\last_24.txt
 }
 
+
 # Output all “error” type events from the System event log to a file on your desktop named errors.txt.
 
 function AirOr {
