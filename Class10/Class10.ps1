@@ -27,15 +27,15 @@ Start-Process -FilePath "C:\Program Files (x86)\Google\Chrome\Application\chrome
 # Start the process Notepad ten times using a for loop.
 Noted = Start-Process -FilePath "C:\Windows\System32\Notepad.exe"
 
-TenIt(){
+function TenIt {
   count=0
-while (( $count < 10 ))
-  do
-    RunIt
-  done
+  while (( $count < 10 ))
+    do
+      RunIt
+    done
 }
 
-RunIt(){
+function RunIt {
   Noted
   count=$(( $count + 1 ))
 }
