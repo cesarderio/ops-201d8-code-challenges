@@ -1,5 +1,7 @@
 # Ops Challenge - Automated Endpoint Configuration
 
+[Google Doc](https://docs.google.com/document/d/11m-6Y2BiiS8S2QC0iAWYcIxm1LfHRSn48aXnFNz5if4/edit?usp=sharing)
+
 ## Overview
 
 Standing up Windows 10 endpoints from scratch can be extremely time-consuming. You’ll want to automate Windows system configurations as much as possible, to save yourself precious time. In class, we can simply export an OVA of a Windows 10 VM; however, in a production operations environment, you may not have such luxuries. It’s good to get a sense of how Powershell can contribute to this effort.
