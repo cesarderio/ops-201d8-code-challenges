@@ -24,25 +24,14 @@ Get-Process | Sort-Object -Property WS(K) -Descending | Select-Object -First 5
 Start-Process -FilePath "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" -ArgumentList '--start-fullscreen "https://owasp.org/www-project-top-ten"'
 
 # Start the process Notepad ten times using a for loop.
-Noted = Start-Process -FilePath "C:\Windows\System32\Notepad.exe"
-
-function TenIt {
-  count=0
-  while (( $count < 10 ))
-    do
-      RunIt
-    done
+for ($i = 1 ; $i -le 10 ; $i++)
+{
+  Start-Process notepad
 }
-
-function RunIt {
-  Noted
-  count=$(( $count + 1 ))
-}
-TenIt
 
 # Close all instances of the Notepad.
 
-Stop-Process -Name "notepad"
+Stop-Process -Name "notepad" -PassThru
 
 # Kill a process by its Process Identification Number. Choose a process whose termination won’t destabilize the system, such as Google Chrome or MS Edge.
 
