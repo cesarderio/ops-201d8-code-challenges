@@ -29,12 +29,12 @@ function IPV4Report {
 }
 
 function TrashIt {
-  Read-Host -Prompt 'Finish and delete file?'
-
+  
   $validAns = $false
   While(-not $validAns)
   {
-    $yn = Read-Host "`Enter yes or no:"
+    # Read-Host 'Finish and delete file?'
+    $yn = Read-Host "Finish and delete file? Enter yes or no"
     Switch($yn.ToLower())
     {
         "yes" {$validAns = $true
