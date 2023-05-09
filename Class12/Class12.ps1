@@ -29,11 +29,26 @@ function IPV4Report {
 }
 
 function TrashIt {
-  $TossIt
+  Read-Host -Prompt 'Finish and delete file?'
+
+  $validAns = $false
+  While(-not $validAns)
+  {
+    $yn = Read-Host "`Enter yes or no:"
+    Switch($yn.ToLower())
+    {
+        "yes" {$validAns = $true
+            $TossIt
+        }
+        "no" {$validAns = $true
+            TrashIt
+        }
+        Default {Write-Host "Enter 'yes' or 'no'."}
+    }
+  }
 }
-
-
 # Create
+
 # Main
 
 NetReport
