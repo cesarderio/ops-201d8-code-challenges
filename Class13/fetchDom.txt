@@ -80,7 +80,7 @@ source:       IANA
    Name Server: NS4.GOOGLE.COM
    DNSSEC: unsigned
    URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
->>> Last update of whois database: 2023-05-10T20:05:58Z <<<
+>>> Last update of whois database: 2023-05-10T21:33:38Z <<<
 
 # whois.markmonitor.com
 
@@ -88,7 +88,7 @@ source:       IANA
 ; <<>> DiG 9.10.6 <<>> google.com
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 21354
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 40983
 ;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
@@ -97,11 +97,11 @@ source:       IANA
 ;google.com.			IN	A
 
 ;; ANSWER SECTION:
-google.com.		299	IN	A	142.250.217.110
+google.com.		300	IN	A	142.250.217.110
 
-;; Query time: 50 msec
+;; Query time: 66 msec
 ;; SERVER: fe80::2eea:dcff:fe23:c49%12#53(fe80::2eea:dcff:fe23:c49%12)
-;; WHEN: Wed May 10 13:06:08 PDT 2023
+;; WHEN: Wed May 10 14:33:58 PDT 2023
 ;; MSG SIZE  rcvd: 55
 
 google.com has address 142.250.217.110

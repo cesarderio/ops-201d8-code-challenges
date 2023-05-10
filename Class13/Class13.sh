@@ -75,4 +75,11 @@ fetchDom(){
   # nslookup "$userInput"
   # nslookup "$userInput" >> fetchDom.txt
 }
+
 fetchDom
+
+# linux
+xdg-open fetchDom.txt
+
+# mac
+open fetchDom.txt
