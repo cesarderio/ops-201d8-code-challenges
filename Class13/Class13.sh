@@ -20,13 +20,8 @@
   # Run nslookup against the user input string.
   # Output the results to a single .txt file and open it with your favorite text editor.
 
-
-
-
 # Declare Variables
 # AddToFile=">> fetchDom.txt"
-
-
 
 # Declare Functions
 removeDom(){
@@ -53,28 +48,21 @@ NslDis(){
   nslookup "$userInput" >> fetchDom.txt
 }
 
-
 # Create
 removeDom
-# Main
 
-# End
 fetchDom(){
-  echo "Please enter a domain name"
-  read -r userInput 
+  # echo "Please enter a domain name"
+  # read -r userInput 
   WhoDis
-  # whois "$userInput"
-  # whois "$userInput" >> fetchDom.txt
   DigDis
-  # dig "$userInput"
-  # dig "$userInput" >> fetchDom.txt
   HostDis
-  # host "$userInput"
-  # host "$userInput" >> fetchDom.txt
   NslDis
-  # nslookup "$userInput"
-  # nslookup "$userInput" >> fetchDom.txt
 }
+
+# Main
+echo "Please enter a domain name"
+read -r userInput 
 
 fetchDom
 
@@ -83,3 +71,5 @@ xdg-open fetchDom.txt
 
 # mac
 open fetchDom.txt
+
+# End
