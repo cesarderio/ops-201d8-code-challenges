@@ -61,8 +61,9 @@ fetchDom(){
 }
 
 # Main
-echo "Please enter a domain name"
-read -r userInput 
+# echo "Please enter a domain name"
+# read -r userInput 
+read -p "Please enter a domain name: " userInput
 
 fetchDom
 

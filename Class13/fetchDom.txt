@@ -57,13 +57,13 @@ source:       IANA
 
 # whois.verisign-grs.com
 
-   Domain Name: GOOGLE.COM
-   Registry Domain ID: 2138514_DOMAIN_COM-VRSN
+   Domain Name: GOOLGE.COM
+   Registry Domain ID: 7034070_DOMAIN_COM-VRSN
    Registrar WHOIS Server: whois.markmonitor.com
    Registrar URL: http://www.markmonitor.com
-   Updated Date: 2019-09-09T15:39:04Z
-   Creation Date: 1997-09-15T04:00:00Z
-   Registry Expiry Date: 2028-09-14T04:00:00Z
+   Updated Date: 2023-05-03T10:22:10Z
+   Creation Date: 1999-06-04T19:16:42Z
+   Registry Expiry Date: 2024-06-04T19:17:20Z
    Registrar: MarkMonitor Inc.
    Registrar IANA ID: 292
    Registrar Abuse Contact Email: abusecomplaints@markmonitor.com
@@ -71,46 +71,43 @@ source:       IANA
    Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
    Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
    Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
-   Domain Status: serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited
-   Domain Status: serverTransferProhibited https://icann.org/epp#serverTransferProhibited
-   Domain Status: serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited
    Name Server: NS1.GOOGLE.COM
    Name Server: NS2.GOOGLE.COM
    Name Server: NS3.GOOGLE.COM
    Name Server: NS4.GOOGLE.COM
    DNSSEC: unsigned
    URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
->>> Last update of whois database: 2023-05-11T18:19:39Z <<<
+>>> Last update of whois database: 2023-05-11T18:30:43Z <<<
 
 # whois.markmonitor.com
 
 
-; <<>> DiG 9.10.6 <<>> google.com
+; <<>> DiG 9.10.6 <<>> goolge.com
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 5632
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 10795
 ;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
 ; EDNS: version: 0, flags:; udp: 4096
 ;; QUESTION SECTION:
-;google.com.			IN	A
+;goolge.com.			IN	A
 
 ;; ANSWER SECTION:
-google.com.		219	IN	A	142.250.217.78
+goolge.com.		300	IN	A	142.251.215.228
 
-;; Query time: 49 msec
+;; Query time: 52 msec
 ;; SERVER: fe80::2eea:dcff:fe23:c49%12#53(fe80::2eea:dcff:fe23:c49%12)
-;; WHEN: Thu May 11 11:19:44 PDT 2023
+;; WHEN: Thu May 11 11:30:53 PDT 2023
 ;; MSG SIZE  rcvd: 55
 
-google.com has address 142.250.217.78
-google.com has IPv6 address 2607:f8b0:400a:80a::200e
-google.com mail is handled by 10 smtp.google.com.
+goolge.com has address 142.251.215.228
+goolge.com has IPv6 address 2607:f8b0:400a:800::2004
+goolge.com mail is handled by 0 .
 Server:		fe80::2eea:dcff:fe23:c49%12
 Address:	fe80::2eea:dcff:fe23:c49%12#53
 
 Non-authoritative answer:
-Name:	google.com
-Address: 142.250.217.78
+Name:	goolge.com
+Address: 142.251.215.228
 
