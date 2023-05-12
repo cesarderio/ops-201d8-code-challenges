@@ -20,11 +20,11 @@ We learned how to navigate the command line terminal and different shells in Mac
 
 ### ***What was your favorite Ops Challenge assignment and why?***
 
-What I have enjoyed the most is having fun with how I build them or change my code around to my personal style. Creating a function to take care of a repetitive task just for that specific assignment or tweaking how I fullfill
+What I have enjoyed the most is having fun with how I build them or change my code around to my personal style. Creating a function to take care of a repetitive task just for that specific assignment or tweaking how I go about completing the given tasks.
 
 ### ***How can these examples of shell scripting be applied to the workplace?***
 
-One of the things I did during a couple of the challenges was to create side scripts to automate deleting directories and/or folders. This could be done in the workplace as well. Instea of a code challenge, this could easily be tasks that someone has for a job. Having these script and/or this knowledge to create these script could help automate work. This could improve efficiency as well.
+One of the things I did during a couple of the challenges was to create side scripts to automate deleting directories and/or folders. This could be done in the workplace as well. Instead of a code challenge, this could easily be tasks that someone has for a job. Having these script and/or this knowledge to create these script could help automate work. This could improve efficiency as well.
 
 ### ***What scripts would you continue to improve if you had the time?***
 
