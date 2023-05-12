@@ -17,7 +17,7 @@ It is very likely I will be using Bash and/or Powershell (and maybe others) in f
 
 ## ***What fundamental concepts did you learn in Ops 201?***
 
-We learned how to navigate the command line terminal and different shells in Mac, Linux and Windows. These code challenges expand on that with learning more about how to create scripts for different systems and how they interact and function with thier own language and way of doing things.
+We learned how to navigate the command line terminal and different shells in Mac, Linux and Windows. These code challenges expand on that with learning more about how to create scripts for different systems and how they interact and function with their own language and way of doing things.
 
 ## ***What was your favorite Ops Challenge assignment and why?***
 
