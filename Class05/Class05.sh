@@ -1,9 +1,8 @@
 #!/bin/bash
-# Script Name:                  Ops Challenge - Loops
+# Script Name:                  Loops
 # Author:                       Raphael Chookagian
 # Date of latest revision:      04/28/2023
-# Purpose:                      
-# Write a script that displays running processes, asks the user for a PID, then kills the process with that PID. See README file for more in depth information.
+# Purpose:                      Write a script that displays running processes, asks the user for a PID, then kills the process with that PID. See README file for more in depth information.
 
 # Declaration of variables
 count=0

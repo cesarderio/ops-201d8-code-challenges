@@ -1,7 +1,7 @@
 
 #!/bin/bash
 
-# Script Name:                  Ops Challenge - Arrays
+# Script Name:                  Arrays
 # Author:                       Raphael Chookagian
 # Date of latest revision:      04/27/2023
 # Purpose:                      

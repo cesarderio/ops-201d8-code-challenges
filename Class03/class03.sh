@@ -1,7 +1,7 @@
 
 #!/bin/bash
 
-# Script Name:                  My First Bash Script
+# Script Name:                  Functions
 # Author:                       Raphael Chookagian
 # Date of latest revision:      04/26/2023
 # Purpose:                      

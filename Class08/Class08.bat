@@ -1,7 +1,7 @@
 
 @REM #!/bin/bash
 
-@REM # Script Name:                  My First Bat Script
+@REM # Script Name:                  Windows Batch Scripting
 @REM # Author:                       Raphael Chookagian
 @REM # Date of latest revision:      04/25/2023
 @REM # Purpose:                      Create a bat/batch file to backup users folder/files and set a task to do it every night
