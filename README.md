@@ -3,9 +3,7 @@
 **What is this repo all about?**
 This repository contains each of the Ops code challenges from the Ops201d8 course. Each Code Challenge has its own README with the *Overview*, *Tasks*, *directions* and *resource links*. Each Script file also has details and comments.
 
-[Class02](./Class02/)
-
-[Class03](./Class03/)
+[Class02](./Class02/) || [Class03](./Class03/)
 
 [Class04](./Class04/)
 
