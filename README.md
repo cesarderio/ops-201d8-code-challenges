@@ -6,7 +6,7 @@
 
 [Class08](./Class08/)  |  [Class09](./Class09/)  |  [Class10](./Class10/)
 
-[Class11](./Class11/)  |  [Class12](./Class12/)  |  [Class13](./Class13/)
+[Class11](./Class11/)  |   [Class12](./Class12/)   |  [Class13](./Class13/)
 
 ## ***What is this repo all about?***
 
