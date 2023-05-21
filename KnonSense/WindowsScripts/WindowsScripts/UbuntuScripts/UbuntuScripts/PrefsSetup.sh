@@ -2,27 +2,16 @@
 
 # Script Name:                  GitHub
 # Author:                       Raphael Chookagian
-# Date of latest revision:      05/10/2023
+# Date of latest revision:      05/18/2023
 # Purpose:                      Script for preferences and settings for colors, screen locking, etc.. See notes for each script for more information.
 
-
-
-# Declare Variables
-
-# Declare Functions
-
-# Create
-
 # Main
-
-# End
 
 # Deactivate screen locking
 gsettings set org.gnome.desktop.screensaver lock-enabled false
 
 # Set dark mode as default
 gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-dark'
-
 
 # Auto open gnome-terminal on login
 mkdir ~/.config/autostart/
@@ -59,7 +48,4 @@ dconf load /org/gnome/terminal/legacy/profiles:/ < gnome-terminal-profiles.dconf
 rm gnome-terminal-profiles.dconf
 
 
-
-
-
-
+# End

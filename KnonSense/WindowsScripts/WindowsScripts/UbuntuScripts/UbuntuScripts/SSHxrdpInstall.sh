@@ -2,26 +2,13 @@
 
 # Script Name:                  GitHub
 # Author:                       Raphael Chookagian
-# Date of latest revision:      05/10/2023
+# Date of latest revision:      05/18/2023
 # Purpose:                      Script that installs and sets basic preferences and settings for SSH(OPENSSH) and RDP(XRDP).
 
-
-
-# Declare Variables
-
-# Declare Functions
-
-# Create
-
 # Main
-
-# End
-
-
 sudo apt update
 
 sudo apt upgrade
-
 
 # install ssh
 sudo apt install ssh -y
@@ -31,7 +18,6 @@ sudo apt install xrdp -y
 
 # set xrdp to run automatically
 sudo systemctl enable --now xrdp
-
 
 # Firewall rules
 # This instructs the firewall application to create rules allowing all traffic coming and going over network port 22 (used for SSH connections) and port number 3389 (used for RDP connections).
@@ -46,7 +32,6 @@ sudo sed -i '4 i\export GNOME_SHELL_SESSION_MODE=ubuntu' /etc/xrdp/startwm.sh
 
 sudo sed -i '4 i\export DESKTOP_SESSION=ubuntu' /etc/xrdp/startwm.sh
 
-
 # Remove “color profile authentication” popup in XRDP change settings/colors
 sudo touch /etc/polkit-1/localauthority/50-local.d/45-allow-colord.pkla
 
@@ -59,7 +44,6 @@ ResultInactive=no
 ResultActive=yes
 EOL
 
-
 # Remove “Authentication required to refresh system repositories” popup on login via XRDP
 sudo cat <<EOL | sudo tee /etc/polkit-1/localauthority/50-local.d/46-allow-update-repo.pkla
 [Allow Package Management all Users]
@@ -70,6 +54,4 @@ ResultInactive=yes
 ResultActive=yes
 EOL
 
-
-
-
+# End

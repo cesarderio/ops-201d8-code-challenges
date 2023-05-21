@@ -4,8 +4,7 @@
 # Script Name:                  Functions
 # Author:                       Raphael Chookagian
 # Date of latest revision:      04/26/2023
-# Purpose:                      
-# Write a function that prints the login history of users on this computer, followed by the text “This is the login history”.
+# Purpose:                      Write a function that prints the login history of users on this computer, followed by the text “This is the login history”.
 # In your script, call that function three times.
 # Use the same template introduced in Challenge02.
 

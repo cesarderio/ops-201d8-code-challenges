@@ -2,14 +2,8 @@
 
 # Script Name:                  GitHub
 # Author:                       Raphael Chookagian
-# Date of latest revision:      05/10/2023
+# Date of latest revision:      05/18/2023
 # Purpose:                      Script that runs scripts in order 1, 2, 3 for basic Ubuntu Lab System Set up with SSH, RDP, Virtualbox and preferences.
-
-# Declare Variables
-
-# Declare Functions
-
-# Create
 
 # Main
 
@@ -21,4 +15,5 @@
 
 # Basic prefs colors, sleep, lock, etc.
  bash 3rdPrefsSetup.sh
+
 # End
